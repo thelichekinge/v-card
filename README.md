@@ -17,6 +17,6 @@ Me frabiquer une V-Card en ligne propre
 - Git
 
 ### Lien live
-https://thelichekinge.github.io/v-card/
+https://thelichekinge.github.io
 
 Petit projet tout simple, mais parfait pour montrer qu'on sait faire du code propre.
