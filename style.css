@@ -1,0 +1,103 @@
+/* Typographie */
+
+@font-face {
+    font-family: TTNormsRegular;
+    src: url(fonts/tt-norms-regular.otf);
+}
+
+@font-face {
+    font-family: TTNormsBold;
+    src: url(fonts/tt-norms-bold.otf);
+}   
+
+/* Carte et images */
+
+.carte {
+    background-color: #121f87;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border:#edc58f solid 5px;
+    margin: 5em auto;
+}
+
+.carte_image{
+    text-align: center;
+    padding: 3em 0;
+}
+
+/* Photo Ronde et centrée */
+.carte_image img {
+    width: 130px;              
+    height: 130px;             
+    object-fit: cover;         
+    border-radius: 50%;        
+    border: 5px solid #edc58f; 
+    margin: 0 auto;            
+    display: block;            
+}
+
+/* Reglès Image*/
+img {
+    width: 100px;
+}
+
+/* Titre et sous-titre */
+
+h2{
+    text-align: center;
+    font-family: TTNormsBold;
+    color: #edc58f;
+}
+
+span,
+p {
+    font-family: TTNormsRegular;
+}
+
+p {
+    width: 75%;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*Disposition et tailles des icones */
+
+.social_icon {
+    width: 80%;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.social_icon img {
+    width: 36px;
+}
+
+/* Configutation au départ des icones */
+
+.social_icon a {
+    cursor: pointer;
+    background-image: linear-gradient(#edc58f, #edc58f);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    transition:margin-top ease-in-out 1s, background-size ease-in-out 0.5s;
+    -webkit-transition:margin-top ease-in-out 1s, background-size ease-in-out 0.5s;
+    -moz-transition:margin-top ease-in-out 1s, background-size ease-in-out 0.5s;
+    -ms-transition:margin-top ease-in-out 1s, background-size ease-in-out 0.5s;
+    -o-transition:margin-top ease-in-out 1s, background-size ease-in-out 0.5s;
+}
+
+/* Effet on hover sur icones */
+.social_icon a:hover,
+.social_icon a:focus, 
+.social_icon a:active {
+   margin-top: -2em;
+   background-size: 100% 0.3em;
+}
