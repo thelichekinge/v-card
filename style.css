@@ -1,3 +1,9 @@
+/* Couleur de fond */
+body {
+    background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+    min-height: 100vh;
+    margin: 0;
+}
 /* Typographie */
 
 @font-face {
